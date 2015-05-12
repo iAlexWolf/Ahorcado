@@ -1,0 +1,9 @@
+ol {
+	list-style-type: none;
+	display: inline-block;
+}
+div {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}

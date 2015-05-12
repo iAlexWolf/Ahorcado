@@ -1,0 +1,33 @@
+	<title>Document</title>
+	<script type="text/javascript">
+		function hola () {
+		var sexo = document.getElementById("sexo").value;
+		console.log(sexo);
+			switch(sexo){
+				case "Mujer":
+					alert("Soy Angela");
+					console.log(sexo);
+					break;
+				case "Hombre":
+					alert("Soy Miguel");
+					console.log(sexo);
+					break;
+				case "Bestia":
+				alert("Soy una bestia");
+				console.log(sexo);
+					break;
+			}
+		}
+	</script>
+</head>
+<body>
+	<form>
+			<select id="sexo">
+				<option value="Hombre">Hombre</option>
+				<option value="Mujer">Mujer</option>
+				<option value="Bestia">Bestia</option>
+			</select>
+			<button onclick="hola()">enviar</button>
+	</form>
+</body>
+</html>
